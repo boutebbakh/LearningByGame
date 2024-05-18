@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Spice&family=Jacquard+24&display=swap');
+a{
+    text-decoration: none;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px;
+    transition: opacity 1s ease-out;
+    
+    
+}
+.nav.scrolled{
+    background-color: whitesmoke;
+    border: whitesmoke;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Adding a shadow effect */
+    padding: 20px 30px ;
+    border-radius: 40px;
+    
+    z-index: 1000;
+}
+
+.navtext a{
+    color: black;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 400;
+}
+.logo {
+    font-size: 35px;
+    line-height: 60px;
+    font-weight: 500;
+    font-family: "Black Ops One", system-ui;
+  }
+.navtext ul li{
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.navtext a:hover{
+    opacity: 1;
+}
+.navtext a.active {
+    opacity: 1;
+  }
+.navbar-link.active{
+    opacity: 1;
+}
+.connexion a:first-child{
+    color: black;
+    margin-right: 10px;
+   
+   
+}
+.connexion a:last-child {
+    color: #000;
+   
+   
+}
+@keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .nav {
+    animation: slideDown 1s ease-in-out;
+  }

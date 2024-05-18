@@ -1,0 +1,55 @@
+.cards {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+    z-index: 40000;
+  }
+  
+  .course-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .level {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .lessons {
+    margin-bottom: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fa-trash,
+  .fa-edit {
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .fa-trash:hover,
+  .fa-edit:hover {
+    color: #333;
+  }
+  

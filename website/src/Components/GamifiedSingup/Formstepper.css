@@ -1,0 +1,101 @@
+
+.first-step{
+  margin-top:40px;
+}
+.first-step p{
+  margin-top:10px;
+}
+
+.form-stepper__step1,.form-stepper__step2,.form-stepper__step3{
+  margin-top:60px;
+}
+
+.form-stepper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin: 30px auto 100px;
+    width: 400px;
+    position: relative;
+    
+    
+
+}
+
+.form-stepper__action{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.step-header__container{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  
+}
+.step-header__step{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds an inset shadow */
+  transition: box-shadow 0.3s; /* Adds transition for the shadow effect */
+
+}
+.step-header__step h2{
+  color:black;
+}
+.completed{
+background-color: white;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+
+
+}
+.input-group.check-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px; /* Adds spacing between checkbox and label */
+  padding: 10px 0px;
+  cursor: pointer; 
+  /* Changes cursor to pointer */
+}
+
+.styled-checkbox.visually-hidden {
+  /* Hide the actual checkbox */
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.styled-label {
+  cursor: pointer; /* Changes cursor to pointer */
+  transition: color 0.3s, box-shadow 0.3s; /* Adds transitions */
+  background-color: rgba(255, 255, 255, 0.5); /* White with opacity */
+  width: 100%; /* Adds padding for better click area */
+  border: 0.5px solid black;
+  padding: 10px 0px;
+  border-radius: 40px; /* Rounded corners */
+  text-align: center;
+  
+}
+.styled-label:hover {
+  
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.1); /* Outer shadow */
+}
+/* Styles for when the checkbox is checked */
+.styled-checkbox:checked + .styled-label {
+  background-color: rgba(255, 255, 255, 0.7); /* Darkens the background when checked */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Larger outer shadow when checked */
+}

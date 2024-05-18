@@ -1,0 +1,46 @@
+/* Components/Login.css */
+.log-container {
+    max-width: 400px;
+    margin: 200px auto 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .password-login {
+    margin-top: 20px;
+  }
+  .error{
+    font-size: 10px;
+    color: red;
+  }
+  
+  .password-login input {
+    width: 100%;
+    padding:  15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Adding a shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for smooth hover effect */
+    
+   
+  }
+  
+  .links {
+    margin-top: 20px;
+  }
+  
+  .links p {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  

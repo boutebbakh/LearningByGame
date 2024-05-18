@@ -1,0 +1,9 @@
+.courses-container{
+margin-top: 200px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    max-width: 1500px; /* Adjust max-width as needed */
+  }

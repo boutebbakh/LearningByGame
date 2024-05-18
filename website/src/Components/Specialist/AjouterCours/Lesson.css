@@ -1,0 +1,55 @@
+/* Container styles */
+.lesson-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label styles */
+  .label {
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  .input-text {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Answer input styles */
+  .answer-input {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  

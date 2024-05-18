@@ -1,0 +1,35 @@
+.navBar{ 
+    
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 20px 50px;
+    padding: 15px 30px ;
+    border-radius: 50px;
+    width: 90%;
+    background-color: #242424; 
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4); /* Adding a shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for smooth hover effect */
+    z-index: 30000;
+}
+.navtext{
+    padding: 10px 0;
+    
+
+}
+
+.connected {
+   padding: 20px;
+}
+
+.navBar .logo{
+color: whitesmoke;
+}
+.navBar .navtext a{
+    color: whitesmoke;
+}
+.fa-solid.fa-user{
+    color: whitesmoke;
+}

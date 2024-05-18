@@ -1,0 +1,66 @@
+.dashboard-container {
+  background-color: #5652ac;
+  min-height: 100vh;
+
+}
+.whole{
+ margin: 80px;
+}
+.greeting{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3); /* Adding a shadow effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for smooth hover effect */
+
+}
+.greeting-container{
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+.greeting-img{
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.dashboard-specialist {
+  /* flex: 1; */
+  padding: 20px;
+}
+
+.whole-courses{
+  margin-top: 50px;
+  
+}
+.coursesContainer {
+  border-radius: 20px ;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+  
+}
+.Courses{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-courses{
+  margin-top: 60px;
+  padding: 10px 20px;
+  border-radius: 60px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3); /* Adding a shadow effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for smooth hover effect */
+
+}
+
+
+
+/* Add other styles for CardS component as needed */

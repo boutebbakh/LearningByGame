@@ -1,0 +1,48 @@
+.specialist-addCourse {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Select styles */
+.select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+/* Container styles */
+.photo-upload-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Label styles */
+.upload-label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Icon styles */
+.upload-icon {
+  margin-right: 5px;
+}
+
+/* File input styles */
+.file-input {
+  display: none;
+}
+
+/* Uploaded photo styles */
+.uploaded-photo {
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+}

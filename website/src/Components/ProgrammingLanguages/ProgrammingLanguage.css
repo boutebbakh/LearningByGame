@@ -1,0 +1,41 @@
+.programming-languages {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .animated {
+    transition: transform 0.5s ease;
+  }
+  
+  .left {
+    animation: slideLeft 2s infinite alternate;
+  }
+  
+  .right {
+    animation: slideRight 2s infinite alternate;
+  }
+  
+  @keyframes slideLeft {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-20px);
+    }
+  }
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(20px);
+    }
+  }
+  

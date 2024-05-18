@@ -1,0 +1,18 @@
+.courses-container{
+  margin-top: 200px;
+  }
+  .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      
+      
+    
+    }
+
+.rcontainer{
+margin: 0 80px;
+
+
+}      
+  

@@ -1,0 +1,93 @@
+  .r-container{
+    
+    
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .Lcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .course-details {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin-top: 10%;
+    width: calc(50% ); /* Set the width of each card to 33.33% of the container width, minus 20 pixels for the space around each card */
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0.5px solid #e1d8b8;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2); /* Adding a shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for smooth hover effect */
+
+    z-index: 9000;
+
+  }
+  .lesson-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    
+ 
+  }
+
+  .lesson-item{
+    width: 100%;
+    padding: 20px 200px;
+    margin: 20px 0px;
+    background-color: whitesmoke;
+    border: 0.5px solid #e1d8b8;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2); /* Adding a shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for smooth hover effect */
+
+  }
+  
+  
+  .card-title {
+    font-size: 1.2rem; /* Adjusted font size for smaller title */
+    margin-bottom: 6px;
+  }
+  .card-description {
+    font-size: 0.9rem; /* Adjusted font size for smaller description */
+    margin-bottom: 12px;
+  }
+  
+  
+  
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+  
+  .card-detail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  
+  .card-info {
+    font-size: 0.9rem;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    
+  
+    .card-img {
+      height: 180px; /* Adjusted height for smaller image on smaller screens */
+    }
+  }
+  
